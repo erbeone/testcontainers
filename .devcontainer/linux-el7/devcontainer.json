@@ -1,0 +1,20 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/docker-from-docker-compose
+{
+	"name": "Hello World Centos 7 Dev",
+	"workspaceFolder": "/Sources",
+	"service": "helloworld",
+	"dockerComposeFile": "docker-compose.yml",
+	// Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"ms-vscode.cpptools-extension-pack",
+				"ms-vscode.cmake-tools",
+				"ms-vscode.hexeditor"
+			]
+		}
+	}
+}

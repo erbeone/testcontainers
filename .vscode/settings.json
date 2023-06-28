@@ -1,0 +1,9 @@
+{
+  "cmake.buildDirectory": "/CMake_Build",
+  "cmake.configureOnOpen": true,
+  "files.associations": {
+    "*.cmake.in": "cmake",
+    "*.cxx.in": "cpp",
+    "stdio.h": "c"
+  }
+}
